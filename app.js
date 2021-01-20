@@ -2,7 +2,7 @@ let friends = ["Jon", "Jamarcy", "B-Ry", "Gabe", "M. Little"];
 
 // Outer loop to pick the friend
 for (let i = 0; i < friends.length; i++) {
-    console.log(friends[i] + ":");
+    console.log(friends[i].toUpperCase() + ":");
 
     let lines_of_code = 99;
     // Inner loop to iterate through the lyrics
