@@ -7,7 +7,7 @@ for (let i = 0; i < friends.length; i++) {
     let lines_of_code = 99;
     // Inner loop to iterate through the lyrics
     while (lines_of_code >= 2) {
-        console.log(lines_of_code + " lines of code in the file, " + lines_of_code + " lines of code; " + friends[i] + " strikes one out, clears it all out...");
+        console.log(lines_of_code + " lines of code in the file, " + (lines_of_code - 1) + " lines of code; " + friends[i] + " strikes one out, clears it all out...");
         lines_of_code--;
     }
 
