@@ -5,9 +5,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     divToHoldButton.style.border = "1px solid salmonpink";
     button.appendChild(buttonText);
-    button.body.appendChild(buttonText);
     document.body.appendChild(button);
-    
+    button.body.appendChild(buttonText);
+
+    button.addEventListener("click", function() {
+        // console.log("clicked");
+
+        let h3 = document.createElement("h3");
+        let h3Text = document.createTextNode("Friend 1 - Test");
+        h3.appendChild(h3Text);
+        document.body.appendChild(h3);
+    })
 
 
     // let divToHoldHeader = document.createElement("div");
