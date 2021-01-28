@@ -3,33 +3,18 @@ document.addEventListener("DOMContentLoaded", function() {
     let button = document.createElement("button");
     let buttonText = document.createTextNode("Sing!");
 
-    divToHoldButton.style.border = "1px solid salmonpink";
+    document.body.appendChild(divToHoldButton);
+    divToHoldButton.appendChild(button);
+    divToHoldButton.style.border = "1px solid black";
     button.appendChild(buttonText);
-    document.body.appendChild(button);
-    button.body.appendChild(buttonText);
+
 
     button.addEventListener("click", function() {
-        // console.log("clicked");
-
         let h3 = document.createElement("h3");
         let h3Text = document.createTextNode("Friend 1 - Test");
         h3.appendChild(h3Text);
         document.body.appendChild(h3);
     })
-
-
-    // let divToHoldHeader = document.createElement("div");
-    // let headerText = document.createTextNode("Friends");
-    
-    
-    
-    // button.appendChild(buttonText);
-    // document.body.appendChild(button);
-    // document.body.appendChild(buttonText);
-
-    // divToHoldHeader.appendChild(headerText);
-    // divToHoldButton.appendChild(button);
-    // button.appendChild(buttonText);
 
 
 //     button.addEventListener("click", function() {
